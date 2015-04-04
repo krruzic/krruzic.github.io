@@ -1,0 +1,75 @@
+@keyframes intro-fade {
+    from {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -o-opacity: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$percentage)";
+    filter: alpha(opacity=0);
+}
+to {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -o-opacity: 1;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$percentage)";
+    filter: alpha(opacity=100);
+}
+}@-webkit-keyframes intro-fade {
+    from {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -o-opacity: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$percentage)";
+    filter: alpha(opacity=0);
+}
+to {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -o-opacity: 1;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$percentage)";
+    filter: alpha(opacity=100);
+}
+}@-moz-keyframes intro-fade {
+    from {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -o-opacity: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$percentage)";
+    filter: alpha(opacity=0);
+}
+to {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -o-opacity: 1;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$percentage)";
+    filter: alpha(opacity=100);
+}
+}@-o-keyframes intro-fade {
+    from {
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -o-opacity: 0;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$percentage)";
+    filter: alpha(opacity=0);
+}
+to {
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -o-opacity: 1;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$percentage)";
+    filter: alpha(opacity=100);
+}
+}
+.intro-fade {
+    animation: intro-fade 1.8s;
+    -webkit-animation: intro-fade 1.8s;
+    -moz-animation: intro-fade 1.8s;
+    -o-animation: intro-fade 1.8s;
+}
